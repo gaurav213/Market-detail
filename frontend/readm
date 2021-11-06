@@ -1,0 +1,28 @@
+packages install
+1> npm i @material-ui/core
+2> npm install @material-ui/icons
+3> npm install react-router-dom
+4> npm i axios
+
+
+some links
+
+
+<link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+run this application
+npm start  =>this is for frontend
+nodemon index.js  =>this is for backend

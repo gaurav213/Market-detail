@@ -1,0 +1,32 @@
+.about-sections {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.images {
+  max-width: 100%;
+  height: auto;
+}
+
+.contacts {
+  width: 50%;
+  height: 50%;
+  height: auto;
+  margin: 3px;
+  padding: 3px;
+  margin-left: 25%
+}
+.texts {
+  margin: 3px;
+  padding: 3px;
+  text-align: center;
+  margin-left: 50%;
+}
+.Containerss {
+  width: 50%;
+
+  overflow-y: hidden;
+  margin: 5% 0 0 20%;
+}
