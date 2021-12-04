@@ -76,7 +76,7 @@ const AllUsers = () => {
   const [rowsPerPage, setRowsPerPage] = useState(20);
   const loadUsers = async () => {
     const response = await getUsers();
-   
+
     setUsers(response.data);
   };
   useEffect(() => {
@@ -108,6 +108,9 @@ const AllUsers = () => {
       </MenuItem>
       <MenuItem component={Link} onClick={handleMenuClose} to="/disclaimer">
         Disclaimer
+      </MenuItem>
+      <MenuItem component={Link} onClick={handleMenuClose} to="/add">
+        Login
       </MenuItem>
     </Menu>
   );

@@ -22,7 +22,9 @@ const Login = ({ setLoginUser }) => {
       history.push("/add");
     });
   };
-
+  const back = () => {
+    history.push("/");
+  }
   return (
     <div className="login">
       <h1>Login</h1>
@@ -43,7 +45,9 @@ const Login = ({ setLoginUser }) => {
       <div className="button" onClick={login}>
         Login
       </div>
-      
+      <div className="button" onClick={back}>
+        Back
+      </div>
     </div>
   );
 };

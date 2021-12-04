@@ -77,6 +77,7 @@ export default function ProminentAppBar() {
       <MenuItem component={Link} onClick={handleMenuClose} to="/disclaimer">
         Disclaimer
       </MenuItem>
+      
     </Menu>
   );
   return (
@@ -130,6 +131,14 @@ export default function ProminentAppBar() {
           <Typography className={classes.title} variant="h4">
             शेतकरी बाजारपेठ
           </Typography>
+          <Button
+            className="btn-primary"
+            color="inherit"
+            component={Link}
+            to="/add"
+          >
+            Login
+          </Button>
         </Toolbar>
       </AppBar>
 

@@ -32,6 +32,8 @@ mongoose
   })
   .catch((err) => console.log(`no connection`));
 
+  //  deploy
+
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("frontend/build"));
   app.get("*", (req, res) => {

@@ -18,14 +18,13 @@ function App() {
         <Switch>
           <Router exact path="/" component={Home} />
           <Router exact path="/about" component={About} />
-          <Route exact path="/add" component= 
+          <Route path="/add" component={AddUsers}>
             {userl && userl._id ? (
               <AddUsers setLoginUser={setLoginUser} />
             ) : (
               <Login setLoginUser={setLoginUser} />
             )}
-            />
-         
+          </Route>
 
           <Router exact path="/contact" component={Contact} />
 
