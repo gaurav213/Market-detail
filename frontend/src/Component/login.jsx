@@ -24,10 +24,10 @@ const Login = ({ setLoginUser }) => {
   };
   const back = () => {
     history.push("/");
-  }
+  };
   return (
     <div className="login">
-      <h1>Login</h1>
+      <h1>Admin Login</h1>
       <input
         type="text"
         name="email"
