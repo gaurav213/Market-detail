@@ -2,7 +2,7 @@ import User from "../model/user-schema.js";
 import Contact from "../model/user-message-schema.js";
 export const getUsers = async (request, response) => {
   try {
-    let user = await User.find();
+    let user = await User.find().sort({ _id: -1 });
     response.json(user);
   } catch (error) {
     response.json({ message: error.message });
