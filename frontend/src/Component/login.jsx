@@ -17,7 +17,7 @@ const Login = ({ setLoginUser }) => {
   const history = useHistory();
   const login = () => {
     axios
-      .post("https://backend-bajarpeth.herokuapp.com/login", user)
+      .post("https://shetakari-bajarpeth.herokuapp.com/login", user)
       .then((res) => {
         alert(res.data.message);
         setLoginUser(res.data.user);
