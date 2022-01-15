@@ -32,7 +32,7 @@ mongoose
   })
   .catch((err) => console.log(`no connection`));
 
-  //  deploy
+//  deploy
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("frontend/build"));

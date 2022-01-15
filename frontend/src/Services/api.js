@@ -1,7 +1,7 @@
 import axios from "axios";
-const url = "http://localhost:3005/users";
-const message = "http://localhost:3005/contacts";
-const feedbackss = "http://localhost:3005/feedback";
+const url = "https://backend-bajarpeth.herokuapp.com/users";
+const message = "https://backend-bajarpeth.herokuapp.com/contacts";
+const feedbackss = "https://backend-bajarpeth.herokuapp.com/feedback";
 
 export const getUsers = async () => {
   return await axios.get(url);

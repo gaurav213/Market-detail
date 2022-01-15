@@ -49,10 +49,10 @@ const Privacy = () => {
           <li>
             <strong>Website</strong> refers to shetakribajrpeth, accessible from{" "}
             <a
-              href="https://www.bajarpeth.com"
+              href="https://shetakari-bajarpeth.herokuapp.com/"
               rel="external nofollow noopener"
             >
-              https://www.bajarpeth.com
+              https://shetakari-bajarpeth.herokuapp.com/
             </a>
           </li>
         </ul>
